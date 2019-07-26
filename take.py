@@ -1,4 +1,4 @@
-form machine import Pin
+from machine import Pin
 import camera
 camera.init()
 flash_light=Pin(04,Pin.OUT)
